@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+D:\ANDROID-JAVA\MY APPLICATIONS\Space Apps Nasa\.metadata\.plugins\org.eclipse.jdt.core
+1284074322.index
+2427874768.index
+3888499455.index
+1955459215.index

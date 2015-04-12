@@ -1,0 +1,29 @@
+package com.example.nasa;
+
+import android.app.Activity;
+import android.content.Context;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class Conversation extends Activity {
+	//AudioManager am;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.conversation);
+	}
+	
+	@Override
+	protected void onPause(){
+	
+		//am= (AudioManager) getBaseContext().getSystemService(Context.AUDIO_SERVICE);
+		//am.setRingerMode(AudioManager.FLAG_REMOVE_SOUND_AND_VIBRATE);
+		
+		AudioManager audioManager = (AudioManager)getBaseContext().getSystemService(Context.AUDIO_SERVICE);
+	     audioManager.setStreamVolume(AudioManager.STREAM_SYSTEM, 0, 0);
+	 	super.onPause();
+	}
+}

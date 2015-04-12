@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nasa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_conversation">Conversation</string>
+    <string name="title_activity_launch">Launch</string>
+    <string name="title_activity_kepler">Kepler</string>
+    <string name="title_activity_one">One</string>
+
+</resources>

@@ -1,0 +1,24 @@
+package com.example.nasa;
+
+import android.app.Activity;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class Conversation extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.conversation);
+	}
+	
+	@Override
+	protected void onPause(){
+		super.onPause();
+		int i=AudioManager.RINGER_MODE_SILENT;
+		
+	}
+}
